@@ -1,6 +1,6 @@
-public class SimpledotComTesteDrive{
-	public static voi main(String[] args){
-	Simpledotcom dot = new Simpledotcom();
+public class SimpleDotComTesteDrive{
+	public static void main(String[] args){
+	SimpleDotCom dot = new SimpleDotCom();
 	
 		int[] locations = {2,3,4};
 		

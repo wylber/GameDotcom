@@ -1,14 +1,14 @@
-  public class Simpledotcom {
+  public class SimpleDotCom {
   
   int[] locationCells;
   int numOfHits=0; 
   
   
-  public void setlocationCells(int [] locs) {
+  public void setLocationCells(int [] locs) {
 	locationCells =locs;
   
   }
-  public String CheckYourself(String stringGuess){
+  public String checkYourself(String stringGuess){
 	int guess = Integer.parseInt(stringGuess);
 	String result ="miss";
 	for (int cell : locationCells) {
